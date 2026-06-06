@@ -106,3 +106,4 @@
 /Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/obj/Debug/net10.0/InventoryApi.pdb
 /Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/obj/Debug/net10.0/InventoryApi.genruntimeconfig.cache
 /Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/obj/Debug/net10.0/ref/InventoryApi.dll
+/Users/yasankaariyadasa/Documents/UserAPI/InventoryAPI/obj/Debug/net10.0/InventoryApi.sourcelink.json

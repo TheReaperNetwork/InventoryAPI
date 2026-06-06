@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2DE+a4cGpUY=",
+  "dgSpecHash": "GEHA7+iAm04=",
   "success": true,
-  "projectFilePath": "/Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/InventoryApi.csproj",
+  "projectFilePath": "/Users/yasankaariyadasa/Documents/UserAPI/InventoryAPI/InventoryApi.csproj",
   "expectedPackageFiles": [
     "/Users/yasankaariyadasa/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/yasankaariyadasa/.nuget/packages/microsoft.aspnetcore.openapi/10.0.5/microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",

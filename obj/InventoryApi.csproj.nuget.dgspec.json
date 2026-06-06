@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/InventoryApi.csproj": {}
+    "/Users/yasankaariyadasa/Documents/UserAPI/InventoryAPI/InventoryApi.csproj": {}
   },
   "projects": {
-    "/Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/InventoryApi.csproj": {
+    "/Users/yasankaariyadasa/Documents/UserAPI/InventoryAPI/InventoryApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/InventoryApi.csproj",
+        "projectUniqueName": "/Users/yasankaariyadasa/Documents/UserAPI/InventoryAPI/InventoryApi.csproj",
         "projectName": "InventoryApi",
-        "projectPath": "/Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/InventoryApi.csproj",
+        "projectPath": "/Users/yasankaariyadasa/Documents/UserAPI/InventoryAPI/InventoryApi.csproj",
         "packagesPath": "/Users/yasankaariyadasa/.nuget/packages/",
-        "outputPath": "/Users/yasankaariyadasa/Documents/UserAPI/InventoryApi/obj/",
+        "outputPath": "/Users/yasankaariyadasa/Documents/UserAPI/InventoryAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yasankaariyadasa/.nuget/NuGet/NuGet.Config"

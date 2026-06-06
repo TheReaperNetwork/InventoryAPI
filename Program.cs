@@ -3,6 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// SUPPORT RAILWAY PORT
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5284";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 // CONTROLLERS
 builder.Services.AddControllers();
 
@@ -19,7 +23,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // SWAGGER
 builder.Services.AddEndpointsApiExplorer();
-
 builder.Services.AddSwaggerGen();
 
 // CORS
@@ -40,14 +43,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-
     app.UseSwaggerUI();
 }
 
-// REMOVE HTTPS REDIRECTION
-// app.UseHttpsRedirection();
-
-// ENABLE CORS
+// CORS
 app.UseCors("AllowReact");
 
 app.UseAuthorization();

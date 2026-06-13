@@ -35,21 +35,17 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// SWAGGER (only in development)
+// SWAGGER
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-// CORS
 app.UseCors("AllowReact");
 
 app.UseAuthorization();
 
 app.MapControllers();
-
-// IMPORTANT FOR DOCKER/RUNNERS LIKE RENDER
-app.Urls.Add("http://0.0.0.0:8080");
 
 app.Run();

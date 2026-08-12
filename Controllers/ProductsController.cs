@@ -63,9 +63,10 @@ namespace InventoryApi.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Edit(int id, Product updatedProduct, string role)
         {
-            if (role != "Admin")
+            // Allow Admin and Staff to edit products
+            if (role != "Admin" && role != "Staff")
             {
-                return Unauthorized("Only Admin can edit products");
+                return Unauthorized("Only Admin or Staff can edit products");
             }
 
             var product = await _context.Products.FindAsync(id);
